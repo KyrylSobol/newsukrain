@@ -1,0 +1,275 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>War in Ukrain</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/blog/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="{% static 'bootstrap.min.css' %}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="{% static 'bootstrap.css' %}" rel="stylesheet">
+  </head>
+  <body>
+    
+<div class="container">
+  <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href="#">Підписатися на наші новини</a>
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-dark" href="#">Новини Війни</a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="link-secondary" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 link-secondary" href="#">Україна</a>
+      <a class="p-2 link-secondary" href="#">Політика</a>
+      <a class="p-2 link-secondary" href="#">Безпека</a>
+    </nav>
+  </div>
+</div>
+
+<main class="container">
+  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 fst-italic">Війна в Україні</h1>
+      <p class="lead my-3">
+      </p>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Україна</strong>
+          <h3 class="mb-0">Ситуація на фронті</h3>
+          <div class="mb-1 text-muted">14 Травня</div>
+          <p class="card-text mb-auto">На Донецькому напрямку противник все що намагається взяти під контроль Рубіжне. Також ворог продовжує завдавати авіаударів по Маріуполю та заводу Азовсталь. </p>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="map.jpg" class="bd-placeholder-img" width="300" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Маріуполь</strong>
+          <h3 class="mb-0">Початок спасіння з Азовсталі</h3>
+          <div class="mb-1 text-muted">14 Травня</div>
+          <p class="mb-auto">Сьогодні розпочалися переговори по евакуаці 38 поранених війскових з території заводу "Азовcталь". Туреччина можливо допоможе.</p>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="azovstal.jpg" class="bd-placeholder-img" width="300" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-5">
+    <div class="col-md-8">
+
+      <article class="blog-post">
+        <h2 class="blog-post-title">Найновіши новини</h2>
+        <p class="blog-post-meta">14 травня, 2022</p>
+        <img src="tank.jpg" class="bd-placeholder-img" width="850" height="550" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+        
+        <h3>Від початку повномасштабного вторгнення в Україну станом на 14 травня росія втратила вже 27200 своїх військових.</h3>
+        <h4>Про це йдеться в повідомлені Генерального штабу ЗСУ.</h4>
+        <h5>Загальні бойові втрати противника з 24.02 по 14.05 орієнтовно складають:</h5>
+        <ul>
+          <li>особового складу – близько 27200 (+300) осіб ліквідовано,</li>
+          <li>танків – 1218 (+13) од,</li>
+          <li>бойових броньованих машин ‒ 2934 (+34) од,</li>
+          <li>артилерійських систем – 551 (+9) од,</li>
+          <li>РСЗВ – 195 (+2) од,</li>
+          <li>засоби ППО – 88 (+0) од</li>
+          <li>літаків – 200 (+1) од,</li>
+          <li>гелікоптерів – 163 (+1) од,</li>
+          <li>БПЛА оперативно-тактичного рівня – 411 (+6),</li>
+          <li>крилаті ракети – 95 (+0),</li>
+          <li>кораблі /катери – 13 (+0) од,</li>
+          <li>aвтомобільної техніки та автоцистерн – 2059 (+17) од,</li>
+          <li>спеціальна техніка – 42 (+1).</li>
+        </ul>
+        <h5>Найбільші втрати противника минулої доби, 13 травня, спостерігалися на Слов’янському та Бахмутському напрямку.</h5>
+        <h5>Нагадаємо, російський агресор продовжує бойові дії у Східній операційній зоні, здійснює вогневий вплив уздовж всієї лінії зіткнення та у глибині оборони наших військ. Найбільша активність окупантів спостерігається на Слобожанському та Донецькому напрямках.</h5>
+
+        <blockquote class="blockquote">
+          <p></p>
+        </blockquote>
+        <p></p>
+        <h3></h3>
+        <p></p>
+        <ul>
+          
+        <p></p>
+        <ol>
+          
+        </ol>
+        <p></p>
+        <dl>
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+          <dt></dt>
+          <dd></dd>
+        </dl>
+        <h2></h2>
+        <p> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"></a></p>
+        <ul>
+          
+        </ul>
+        <p></p>
+        <h2></h2>
+        <p></p>
+        <h3></h3>
+        <p></p>
+        <pre><code></code></pre>
+        <p></p>
+      </article>
+
+      <article class="blog-post">
+        <h2 class="blog-post-title"></h2>
+        <p class="blog-post-meta"> </p>
+
+        <p></p>
+        <blockquote>
+          <p> <strong></strong> </p>
+        </blockquote>
+        <p></p>
+        <h3></h3>
+        <p></p>
+        <table class="table">
+        
+          </thead>
+          <tbody>
+            <tr>
+          
+            </tr>
+            <tr>
+         
+            </tr>
+            <tr>
+              
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              
+            </tr>
+          </tfoot>
+        </table>
+
+        <p></p>
+      </article>
+
+      <article class="blog-post">
+        <h2 class="blog-post-title"></h2>
+        <p class="blog-post-meta"></p>
+
+        <p></p>
+        <ul>
+      
+        </ul>
+        <p></p>
+      </article>
+
+
+
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-light rounded">
+          <h4 class="fst-italic">Про наш проект</h4>
+          <p class="mb-0">Ми вирішили створити свій блог з новина на фоні початку повномаштабної війни в Україні, щоб інформувати мешканців України та світу про ситуацію на фронті.</p>
+          <p> Його засновниками стала команда з міста  Ківерці під назвою "Сахнік".</p>
+          <p>Якщо ви хотіли б звязатися з нами то ось наша електронна почта: newsukrain@gmail.com</p>
+          <p>Також якщо ви хочете надати нам якусь нову та цікаву інформацію про ситуацію на фронті, можете писати її в форму нижче</p>
+          <section class="banner-1">
+            <div class="container-1">
+                <h2> Форма для зв'язку</h2>
+                <form>
+                    <label for="name">Ім'я</label>
+                    <p><input type="text" id="name" name="name" placeholder="Введіть своє ім'я"></p>
+                    <label for="address">Адреса</label>
+                    <p><input type="text" id="address" name="address" placeholder="Введіть свою електронну адресу"></p>
+                    <label for="message">Повідомлення</label>
+                    <p><textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Введіть своє повідомлення"></textarea></p>
+                    <p><input id="sumbit" type="submit" value="Відправити"></p>
+                </form>
+            </div>
+        </section>
+
+        </div>
+  
+          <div class="footer-top">
+            <div class="container">
+              <div class="row">
+      
+              </div>
+            </div>
+          </div>
+        
+<footer class="blog-footer">
+
+</footer>
+
+
+    
+  </body>
+</html>
